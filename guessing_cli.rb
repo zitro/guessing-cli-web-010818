@@ -15,11 +15,10 @@ puts "Guess a number between 1 and 6."
     puts "Goodbye!"
   elsif user_guess.to_i == randomNumber
     puts "You guessed the correct number!"
-    
+
   else
     puts "The computer guessed #{randomNumber}"
 
   end
 end
 
-run_guessing_game
