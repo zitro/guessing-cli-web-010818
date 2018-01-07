@@ -8,9 +8,8 @@
 
 
 def run_guessing_game
-randomNumber = rand(1..6)
-puts "Guess a number between 1 and 6."
-  user_guess = gets.chomp
+randomNumber
+user_guess
   if user_guess.downcase == "exit"
     puts "Goodbye!"
   elsif user_guess.to_i == randomNumber
@@ -20,4 +19,13 @@ puts "Guess a number between 1 and 6."
     puts "The computer guessed #{randomNumber}"
 
   end
+end
+
+def randomNumber
+  randomNumber == rand(1..6)
+end
+
+def user_guess
+  puts "Guess a number between 1 and 6."
+  user_guess = gets chomp
 end
