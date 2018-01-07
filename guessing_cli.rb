@@ -14,7 +14,6 @@ puts "Guess a number between 1 and 6."
   user_guess = gets.chomp
   if user_guess.downcase == "exit"
     puts "Goodbye!"
-    break
   elsif user_guess.downcase == randomNumber.to_s
     puts "You guessed the correct number!"
 
