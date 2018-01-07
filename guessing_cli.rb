@@ -21,3 +21,5 @@ binding.pry
 
   end
 end
+
+run_guessing_game
