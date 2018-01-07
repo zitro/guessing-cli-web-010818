@@ -8,13 +8,13 @@
 
 
 def run_guessing_game
-randomNumber = rand(1..6)
+randomNumber = rand(1..6).to_s
 user_guess = ""
 puts "Guess a number between 1 and 6."
   user_guess = gets.downcase.chomp
   if user_guess == "exit"
     puts "Goodbye!"
-  elsif user_guess == randomNumber.to_s
+  elsif user_guess == randomNumber
     puts "You guessed the correct number!"
 
   else
