@@ -13,7 +13,5 @@ puts "Guess a number between 1 and 6."
   if user_guess.downcase == "exit"
     puts "Goodbye!"
   end
-    
-else
-  
-  
+
+end
