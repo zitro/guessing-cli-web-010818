@@ -8,7 +8,7 @@
 
 
 def run_guessing_game
-randomNumber == rand(1..6)
+randomNumber = rand(1..6)
 puts "Guess a number between 1 and 6."
   user_guess = gets.chomp
   if user_guess.downcase == "exit"
