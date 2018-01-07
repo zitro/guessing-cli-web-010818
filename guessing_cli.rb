@@ -15,7 +15,7 @@ user_guess
   elsif user_guess.to_i == randomNumber
     puts "You guessed the correct number!"
 
-  else
+  else user_guess == nil || user_guess == !randomNumber
     puts "The computer guessed #{randomNumber}"
 
   end
